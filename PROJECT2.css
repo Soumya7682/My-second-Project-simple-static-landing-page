@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+    font-family: cursive;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+#intro{ 
+    height: 40%;
+    width: 100%;
+    background-color: rgb(232, 229, 225);
+    padding: 10px 30px;
+}
+#intro h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 100px;
+letter-spacing: -3px;
+}
+#intro h5{
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+#intro h4{
+    position: absolute;
+    top: 230px;
+    left: 85%;
+    margin-top: 40px; 
+    font-size: 20px;
+    font-weight: 900;
+}
+#img{
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+}
+#nav{
+    height: 0.5%;
+    display: flex;
+    background-color: rgb(250, 248, 248);
+    position: fixed;
+    width: 100%;
+
+   align-items: center;
+   justify-content: flex-end;
+   padding: 12px 18px;
+}
+#nav h6{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-left:9px ;
+font-size: 10px;
+    padding: 10px 20px;
+    
+}
+#about{
+    position: absolute;
+    top: 710px;
+    height: 45%;
+    width: 100%;
+    background-color: rgb(114, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 40px 50px;
+}
+#about h2{
+    color: rgb(2, 27, 2);
+    width: 60%;
+    font-size: 70px;
+    line-height: 88px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#about2{
+width: 30%;
+height: 100%;
+border-left:2px solid black;
+padding: 0px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+#about2 h3{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#icon i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#work{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 1100px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right:50px;
+    font-size: 15px;
+
+}
+#work2{
+    height: 100%;
+    width: 70%;
+    padding: 0 10px;
+   }
+.workp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 0px ;
+}
+.workp:nth-child(1){ /*here nt child 1 means its first child is selected similarly we can add nth child 2 for 2nd child*/
+
+border-bottom: 2px solid black;
+}
+.workp .first{
+    width: 50%;
+    height: 100%;
+
+}
+
+.workp .first:nth-child(1){
+    border-right: 2px solid black;
+    padding-left: 75px;
+}
+.workp .first:nth-child(2){
+    padding-left: 75px;
+}
